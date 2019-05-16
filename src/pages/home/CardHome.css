@@ -1,0 +1,44 @@
+h1{
+    font-size: 10px;
+    color: white;
+    background-color: green;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.cardHome{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 250px;
+    height: 350px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px
+}
+
+.cardimg{
+    display: flex;
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.homeimg{
+    width: 200px;
+    height: 200px;
+}
+
+.titlehome{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+

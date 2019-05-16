@@ -1,12 +1,20 @@
 import React, { Component } from 'react'
-import Todo from './Todo'
-import './App.css'
+import {Switch, Route} from "react-router-dom";
+import Home from './pages/home/Home';
+import DashJenis from './material/DashJenis'
+import DashFood from './material/DashFood';
+// import Checkout from './material/Checkout';
 
 export default class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Todo/>
+      <div>
+        <Switch>
+          <Route exact path="/" component={Home}/>
+          <Route path="/jenis" exact component={DashJenis}/>
+          <Route path="/jenis/:id" component={DashFood}/>
+          {/* <Route path="/checkout" component={Checkout}/> */}
+        </Switch>
       </div>
     )
   }
