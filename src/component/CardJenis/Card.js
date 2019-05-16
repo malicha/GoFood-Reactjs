@@ -23,7 +23,7 @@ export default class Cards extends Component {
           component={Link}
           to={`jenis/${id}`}
           className="cardR"
-          style={{ maxWidth: 350, maxHeight: 500, borderRadius: 5 }}
+          style={{ maxWidth: 300, maxHeight: 500, borderRadius: 5 }}
         >
           <CardImg
             style={{ height: 200, width: 350 }}

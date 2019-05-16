@@ -106,7 +106,7 @@ const database=[
                 id: "1",
                 name: "Ice Cream",
                 gambar: "https://data.whicdn.com/images/23065547/large.jpg",
-                harga: 30000,
+                harga: 35000,
                 price: 0,   
             },
             {
