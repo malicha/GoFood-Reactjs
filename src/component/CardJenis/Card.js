@@ -3,10 +3,8 @@ import { Link } from "react-router-dom";
 import {
   Card,
   CardImg,
-  CardText,
   CardBody,
   CardTitle,
-  CardSubtitle
 } from "reactstrap";
 export default class Cards extends Component {
   render() {
@@ -34,7 +32,7 @@ export default class Cards extends Component {
           />
           <CardBody>
             <CardTitle
-              style={{color: "green"}}
+              style={{color: "green", textDecoration: "none"}}
             >
               {nama}
             </CardTitle>
