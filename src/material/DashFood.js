@@ -3,14 +3,13 @@ import database from '../database/database'
 import CardFood from "../component/CardFood/CardFood";
 import {Link} from 'react-router-dom';
 import Navbar from '../component/Navbar';
-import {Row,Col} from 'reactstrap'
+import {Row, Col, Button} from 'reactstrap'
 import Paper from '@material-ui/core/Paper';
 import Table from '@material-ui/core/Table'
 import TableBody from '@material-ui/core/TableBody'
 import TableCell from '@material-ui/core/TableCell'
 import TableHead from '@material-ui/core/TableHead'
 import TableRow from '@material-ui/core/TableRow';
-import {Button} from 'reactstrap'
 
 export default class DashFood extends Component {
   componentWillMount(){
@@ -186,7 +185,9 @@ export default class DashFood extends Component {
       </Table>
     </Paper>
     <div style={{margin: 20}}>
-      <Button color="success" component={Link} to="/checkout" onClick={this.pay}>Bayar Sekarang</Button>
+    <Link tag={Link} to="/checkout" onClick ={this.pay}>
+      <Button color="success">Bayar Sekarang</Button>
+    </Link>
     </div>
       </div>
       </div>

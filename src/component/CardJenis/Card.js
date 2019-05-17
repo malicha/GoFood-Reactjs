@@ -19,7 +19,7 @@ export default class Cards extends Component {
       >
         <Card
           tag={Link}
-          style={{ textDecoration: "none" }}
+          style={{ textDecoration: "none"}}
           component={Link}
           to={`jenis/${id}`}
           className="cardR"

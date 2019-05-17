@@ -20,13 +20,14 @@ const styles = {
 function CardCheckout(props) {
   const { classes } = props;
   return (
+    <div style={{padding: 30}}>
     <Card className={classes.card}>
       <CardActionArea>
         <CardMedia
           component="img"
           className={classes.media}
           height="140"
-          image={prps.image}
+          image={props.image}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
@@ -36,13 +37,14 @@ function CardCheckout(props) {
             Rp {props.harga}
           </Typography>
           <Typography component="p">
-            Total: {props.gyt}
+            Total: {props.qyt}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
       </CardActions>
     </Card>
+    </div>
   );
 }
 
