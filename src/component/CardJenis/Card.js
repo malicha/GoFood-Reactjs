@@ -23,16 +23,16 @@ export default class Cards extends Component {
           component={Link}
           to={`jenis/${id}`}
           className="cardR"
-          style={{ maxWidth: 300, maxHeight: 500, borderRadius: 5 }}
+          style={{ maxWidth: 350, height: 300, borderRadius: 5, paddingRight: 10}}
         >
           <CardImg
-            style={{ height: 200, width: 350 }}
+            style={{ height: 200, width: 350}}
             src={image}
             alt="Card image cap"
           />
           <CardBody>
             <CardTitle
-              style={{color: "green", textDecoration: "none"}}
+              style={{color: "green"}}
             >
               {nama}
             </CardTitle>
