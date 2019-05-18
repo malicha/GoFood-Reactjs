@@ -34,7 +34,7 @@ export default class Checkout extends Component {
          <Row>
          {this.state.order.map(isi =>{
              return(
-                <Col xs="6" xl="4">
+                <Col xs="12" sm="6" xl="4">
                 <CardCheckout
                 image={isi.gambar}
                 nama={isi.name}

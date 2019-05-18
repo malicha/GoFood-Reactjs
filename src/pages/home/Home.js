@@ -10,9 +10,9 @@ export default class Home extends Component {
     return (
       <div>
          <Navbar name="Go Life"/>
-         <div style={{marginTop: 50}}>
-           <Row>
-             <Col>
+         <div style={{margin: 20}}>
+           <Row >
+             <Col xl="12" sm="4" xs="12">
              {" "}
             <Link tag={Link} to="/jenis" style={{ textDecoration: "none"}}>
             <CardHome no="1" Title="Go Food" Image={Indo}/>

@@ -18,7 +18,7 @@ export default class DashJenis extends Component {
             }}>
             {database.map(isi => {
               return(
-                <Col xs="6" xm="12" xl="4">
+                <Col sm="12" xs="12" xl="4"  >
                 <Cards isi={isi}/>
                 </Col>
               )
